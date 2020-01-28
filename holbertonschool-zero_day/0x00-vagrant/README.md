@@ -1,0 +1,1 @@
+Create 0x00-vagrant directory and 0-hello_ubuntu file within.
