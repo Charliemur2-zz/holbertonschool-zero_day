@@ -1,1 +1,1 @@
-git branch. Master and other branch
+git branch. Master and other branch and be up to date
