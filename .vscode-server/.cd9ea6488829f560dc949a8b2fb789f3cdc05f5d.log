@@ -1,0 +1,50 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 10.0.2.15
+Extension host agent listening on 53449
+
+
+[23:03:30] Extension host agent started.
+[23:03:31] [127.0.0.1][2e8b046e][ManagementConnection] New connection established.
+[23:03:31] [127.0.0.1][7223710a][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[23:03:32] [127.0.0.1][7223710a][ExtensionHostConnection] <1668> Launched Extension Host Process.
+[23:03:49] [127.0.0.1][2e8b046e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:03:50] [127.0.0.1][7223710a][ExtensionHostConnection] <1668> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[23:03:50] Last EH closed, waiting before shutting down
+[23:03:51] [127.0.0.1][6b52011c][ManagementConnection] New connection established.
+[23:03:51] [127.0.0.1][92bdec1c][ExtensionHostConnection] New connection established.
+[23:03:51] [127.0.0.1][92bdec1c][ExtensionHostConnection] <1715> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[23:08:50] New EH opened, aborting shutdown
+[23:10:01] Installing extension: hdg.live-html-previewer
+[23:10:03] Downloaded extension: hdg.live-html-previewer /tmp/f584879d-7b03-4e25-861f-8eeade4fe7b8
+[23:10:04] Extracted extension to /home/vagrant/.vscode-server/extensions/.hdg.live-html-previewer-0.3.0: hdg.live-html-previewer
+[23:10:04] Renamed to /home/vagrant/.vscode-server/extensions/hdg.live-html-previewer-0.3.0
+[23:10:04] Installation completed. hdg.live-html-previewer
+[23:10:04] Extensions installed successfully: hdg.live-html-previewer
+[23:10:07] [127.0.0.1][6b52011c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:10:09] [127.0.0.1][92bdec1c][ExtensionHostConnection] <1715> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[23:10:09] Last EH closed, waiting before shutting down
+[23:10:10] [127.0.0.1][45c36ecf][ExtensionHostConnection] New connection established.
+[23:10:10] [127.0.0.1][45c36ecf][ExtensionHostConnection] <1838> Launched Extension Host Process.
+[23:10:10] [127.0.0.1][c1df6d42][ManagementConnection] New connection established.
+[23:11:01] [127.0.0.1][c1df6d42][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:11:02] [127.0.0.1][45c36ecf][ExtensionHostConnection] <1838> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[23:11:02] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[23:11:02] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[23:16:02] Last EH closed, shutting down

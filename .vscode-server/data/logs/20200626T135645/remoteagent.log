@@ -1,0 +1,50 @@
+[2020-06-26 13:56:45.601] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-06-26 13:56:45.601] [remoteagent] [info] Extension host agent started.
+[2020-06-26 13:56:46.598] [remoteagent] [info] [127.0.0.1][a6c00ecc][ManagementConnection] New connection established.
+[2020-06-26 13:56:46.601] [remoteagent] [info] [127.0.0.1][9e3dfecf][ExtensionHostConnection] New connection established.
+[2020-06-26 13:56:47.302] [remoteagent] [info] [127.0.0.1][9e3dfecf][ExtensionHostConnection] <1658> Launched Extension Host Process.
+[2020-06-26 15:42:31.511] [remoteagent] [info] Installing extension: ms-python.python
+[2020-06-26 15:42:41.493] [remoteagent] [info] Downloaded extension: ms-python.python /tmp/49a7b9ea-b073-42ab-8504-d501f2f38245
+[2020-06-26 15:42:53.572] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.ms-python.python-2020.6.90262: ms-python.python
+[2020-06-26 15:42:53.587] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-python.python-2020.6.90262
+[2020-06-26 15:42:53.627] [remoteagent] [info] Installation completed. ms-python.python
+[2020-06-26 15:42:53.651] [remoteagent] [info] Extensions installed successfully: ms-python.python
+[2020-06-26 15:46:56.797] [remoteagent] [info] [127.0.0.1][a6c00ecc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-26 15:46:57.879] [remoteagent] [info] [127.0.0.1][9e3dfecf][ExtensionHostConnection] <1658> Extension Host Process exited with code: 0, signal: null.
+[2020-06-26 15:46:57.881] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-26 15:46:59.820] [remoteagent] [info] [127.0.0.1][a125b192][ExtensionHostConnection] New connection established.
+[2020-06-26 15:46:59.835] [remoteagent] [info] [127.0.0.1][a125b192][ExtensionHostConnection] <2218> Launched Extension Host Process.
+[2020-06-26 15:46:59.841] [remoteagent] [info] [127.0.0.1][e5cdd710][ManagementConnection] New connection established.
+[2020-06-26 15:51:57.886] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-26 16:07:10.228] [remoteagent] [info] Installing extension: njpwerner.autodocstring
+[2020-06-26 16:07:11.485] [remoteagent] [info] Downloaded extension: njpwerner.autodocstring /tmp/a118e776-b92c-407e-b9c2-2de8da804ade
+[2020-06-26 16:07:11.745] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.njpwerner.autodocstring-0.5.3: njpwerner.autodocstring
+[2020-06-26 16:07:11.745] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/njpwerner.autodocstring-0.5.3
+[2020-06-26 16:07:11.746] [remoteagent] [info] Installation completed. njpwerner.autodocstring
+[2020-06-26 16:07:11.755] [remoteagent] [info] Extensions installed successfully: njpwerner.autodocstring
+[2020-06-26 16:07:45.614] [remoteagent] [info] [127.0.0.1][e5cdd710][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-26 16:07:46.790] [remoteagent] [info] [127.0.0.1][a125b192][ExtensionHostConnection] <2218> Extension Host Process exited with code: 0, signal: null.
+[2020-06-26 16:07:46.790] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-26 16:07:48.856] [remoteagent] [info] [127.0.0.1][ce3ca0b2][ManagementConnection] New connection established.
+[2020-06-26 16:07:48.858] [remoteagent] [info] [127.0.0.1][8c290eee][ExtensionHostConnection] New connection established.
+[2020-06-26 16:07:48.875] [remoteagent] [info] [127.0.0.1][8c290eee][ExtensionHostConnection] <2752> Launched Extension Host Process.
+[2020-06-26 16:12:46.796] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-06-26 19:57:50.756] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/vagrant/AirBnB_clone/tests/test_base_model.py'
+[2020-06-26 20:31:29.630] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/vagrant/AirBnB_clone/tests/test_base_model.py'
+[2020-06-26 23:24:19.345] [remoteagent] [info] [127.0.0.1][ce3ca0b2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-06-26 23:24:22.207] [remoteagent] [info] [127.0.0.1][ce3ca0b2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-06-26 23:24:22.212] [remoteagent] [info] [127.0.0.1][8c290eee][ExtensionHostConnection] The client has reconnected.
+[2020-06-26 23:24:22.237] [remoteagent] [info] [127.0.0.1][ce3ca0b2][ManagementConnection] The client has reconnected.
+[2020-06-27 00:12:50.807] [remoteagent] [info] [127.0.0.1][ce3ca0b2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-27 00:12:52.011] [remoteagent] [info] [127.0.0.1][8c290eee][ExtensionHostConnection] <2752> Extension Host Process exited with code: 0, signal: null.
+[2020-06-27 00:12:52.011] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-27 00:17:52.112] [remoteagent] [info] Last EH closed, shutting down

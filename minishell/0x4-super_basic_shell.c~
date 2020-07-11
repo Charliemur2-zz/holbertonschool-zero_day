@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <string.h>
+/**
+* main - super simple shell
+* Return: always 0
+*/
+
+int main(void)
+{
+	char *lineptr = NULL;
+	char *nullflag[] = {NULL, NULL};
+	int char_rd;
+	size_t n = 1024;
+	pid_t chpid;
+	char *token;
+	char *env[] = {NULL};
+
+	for (;;)
+	{
+		printf("#super-basic-shell ");
+		char_rd = getline(&lineptr, &n, stdin);
+		if (char_rd == -1)
+			return (-1);
+		chpid = fork();
+		token = strtok(lineptr, "\n");
+		nullflag[0] = token;
+		if (chpid == -1)
+		{
+			perror("Error:\n");
+			exit(-1);
+		}
+		if (chpid == 0)
+		{
+			printf("i´m a child process my id is %d\n", getpid());
+			printf("And my parent process id is %d\n", getppid());
+			execve(token, nullflag, env);
+		}
+		else
+		{
+			if (chpid > 0)
+				wait(NULL);
+		}
+		free(lineptr);
+	}
+	return (0);
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <unistd.h>
+
+/**
+ * main - PPID
+ * Return: always 0
+ */
+int main(void)
+{
+	ppid_t ppid;
+
+	ppid = getppid();
+	print("%u\n", ppid);
+	return (0);
+}

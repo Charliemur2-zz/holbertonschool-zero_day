@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+/**
+ * main - fork, wait, execve
+ * Return: always 0
+ *
+ */
+
+int main(void)
+{
+	char *argv[] = {"/bin/ls", "-l", ".", NULL};
+	pid_t chpid;
+	int i = 0;
+
+	while (i <= 4)
+	{
+		chpid = fork();
+		if (chpid == -1)
+		{
+			perror("Error\n");
+			exit(-1);
+		}
+		if (chpid == 0)
+		{
+			printf("I´m the child %d\n", (i + 1));
+			printf("my PID is %d\n", getpid());
+			printf("and the id of my parent is %d\n", getppid());
+			execve(argv[0], argv, NULL);
+		}
+		wait(NULL);
+		i++;
+	}
+	if (chpid > 0)
+	{
+		wait(NULL);
+		printf("I´m the parent and my pid is %d\n", getpid());
+	}
+	return (0);
+}

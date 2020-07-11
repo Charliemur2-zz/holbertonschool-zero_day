@@ -1,0 +1,48 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant/AirBnB_clone
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+git.getSCMResource.uri file:///home/vagrant/AirBnB_clone/index.html
+repo root /home/vagrant/AirBnB_clone
+> git show --textconv HEAD:index.html
+> git ls-tree -l HEAD -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git ls-tree -l HEAD -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git show --textconv :index.html
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose

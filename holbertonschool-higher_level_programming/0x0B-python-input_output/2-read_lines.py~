@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+"""
+reads n lines of a text file
+"""
+
+
+def read_lines(filename="", nb_lines=0):
+    """
+    reads n lines of a text file
+    """
+    with open(filename, encoding="utf-8") as the_file:
+        line_count = 0
+        while True:
+            line = the_file.readline()
+            if not line:
+                break
+            line_count += 1
+    if nb_lines <= 0 or nb_lines == line_count:
+        print(the_file.read(), end=" ")
+    else:
+        for lines_print in range(nb_lines):
+            line = the_file.readline()
+            print(line)

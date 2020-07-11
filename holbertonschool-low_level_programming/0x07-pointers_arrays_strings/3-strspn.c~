@@ -1,0 +1,31 @@
+#include "holberton.h"
+
+/**
+ *
+ *
+ *
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+	int n;
+	int i;
+	int j;
+
+	n = 0;
+	i = 0;
+	while (s[i] != ' ')
+	{
+		j = 0;
+		while (f[j] != '\0')
+		{
+			if (s[i] == f[j])
+			{
+				n++;
+			}
+			j++;
+		}
+		i++;
+	}
+	return (n);
+}

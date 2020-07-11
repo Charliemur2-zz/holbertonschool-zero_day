@@ -1,0 +1,17 @@
+>>> 7-base_geometry = __import__('7-base_geometry').integer_validator
+
+'module docstring'
+>>> m = __import__("7-base_geometry").__doc__
+>>> len(m) > 1
+True
+
+'class docstring'
+>>> doc = __import__("7-base_geometry").BaseGeometry.__doc__
+>>> len(doc) > 1
+True
+
+'function docstring'
+>>> doc = __import__("1-my_list").integer_validator.__doc__
+>>> len(doc) > 1
+True
+

@@ -1,0 +1,32 @@
+#include "holberton.h"
+
+/**
+ *
+ * @s: string to convert
+ * Return: the s 
+ */
+
+char *leet(char *s)
+{
+	int n;
+	int i;
+	char l[] = "aeotl";
+	char lu[] = "AEOTL";
+	int leet[] = {4, 3, 0, 7, 1};
+
+	m = 0;
+	while (s[n] != '\0')
+	{
+		i = 0;
+		while (i <= 4)
+		{
+			if (s[n] == l[i] || s[n] == lu[i])
+			{
+				s[n] = leet[i];
+			}
+			i++;
+		}
+		n++;
+	}
+	return (s);
+}

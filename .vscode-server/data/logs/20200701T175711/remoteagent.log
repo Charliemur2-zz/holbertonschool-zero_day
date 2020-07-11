@@ -1,0 +1,43 @@
+[2020-07-01 17:57:12.076] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-07-01 17:57:12.076] [remoteagent] [info] Extension host agent started.
+[2020-07-01 17:57:12.796] [remoteagent] [info] [127.0.0.1][99f7aa1a][ManagementConnection] New connection established.
+[2020-07-01 17:57:12.800] [remoteagent] [info] [127.0.0.1][dae569f3][ExtensionHostConnection] New connection established.
+[2020-07-01 17:57:13.217] [remoteagent] [info] [127.0.0.1][dae569f3][ExtensionHostConnection] <1675> Launched Extension Host Process.
+[2020-07-01 17:57:15.978] [remoteagent] [info] Installing extension: ms-python.python
+[2020-07-01 17:57:41.039] [remoteagent] [info] Downloaded extension: ms-python.python /tmp/82283483-caad-48d1-981b-d5eeae156736
+[2020-07-01 17:57:42.204] [remoteagent] [info] [127.0.0.1][99f7aa1a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-01 17:57:43.280] [remoteagent] [info] [127.0.0.1][dae569f3][ExtensionHostConnection] <1675> Extension Host Process exited with code: 0, signal: null.
+[2020-07-01 17:57:43.280] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-01 17:57:45.027] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] New connection established.
+[2020-07-01 17:57:45.038] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] New connection established.
+[2020-07-01 17:57:45.056] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] <1724> Launched Extension Host Process.
+[2020-07-01 17:57:50.866] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.ms-python.python-2020.6.91350: ms-python.python
+[2020-07-01 17:57:50.866] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-python.python-2020.6.91350
+[2020-07-01 17:57:50.876] [remoteagent] [info] Installation completed. ms-python.python
+[2020-07-01 17:57:50.943] [remoteagent] [info] Extensions installed successfully: ms-python.python
+[2020-07-01 18:02:43.283] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-07-01 18:15:44.365] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-01 18:15:48.575] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-01 21:10:03.467] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-01 21:10:03.477] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-01 23:45:09.338] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-01 23:47:05.820] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-01 23:56:12.403] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-01 23:56:12.419] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-02 02:53:28.993] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-02 02:53:28.995] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-02 03:46:32.208] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] The client has reconnected.
+[2020-07-02 03:46:32.241] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has reconnected.
+[2020-07-02 05:21:28.002] [remoteagent] [info] [127.0.0.1][1e8fb529][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-02 05:21:29.454] [remoteagent] [info] [127.0.0.1][23d8e9d0][ExtensionHostConnection] <1724> Extension Host Process exited with code: 0, signal: null.
+[2020-07-02 05:21:29.455] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-02 05:26:29.558] [remoteagent] [info] Last EH closed, shutting down

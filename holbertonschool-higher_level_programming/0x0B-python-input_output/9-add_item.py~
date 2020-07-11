@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""
+adds all arguments to a Python lis
+"""
+import sys
+import json
+
+
+def my_function(*args):
+    my_list += *args
+    print(my_list)

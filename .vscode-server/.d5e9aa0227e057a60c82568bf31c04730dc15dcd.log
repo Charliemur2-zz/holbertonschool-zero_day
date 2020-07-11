@@ -1,0 +1,53 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 10.0.2.15
+Extension host agent listening on 53090
+
+
+[23:11:28] Extension host agent started.
+[23:11:28] [127.0.0.1][9d950e1d][ManagementConnection] New connection established.
+[23:11:28] [127.0.0.1][8d88857b][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[23:11:28] [127.0.0.1][8d88857b][ExtensionHostConnection] <2101> Launched Extension Host Process.
+[23:30:31] Installing extension: negokaz.live-server-preview
+[23:30:55] Downloaded extension: negokaz.live-server-preview /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/negokaz.live-server-preview-0.1.4
+[23:31:03] Extracted extension to /home/vagrant/.vscode-server/extensions/.negokaz.live-server-preview-0.1.4: negokaz.live-server-preview
+[23:31:03] Renamed to /home/vagrant/.vscode-server/extensions/negokaz.live-server-preview-0.1.4
+[23:31:03] Installation completed. negokaz.live-server-preview
+[23:31:03] Extensions installed successfully: negokaz.live-server-preview
+[23:31:06] [127.0.0.1][9d950e1d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:31:07] [127.0.0.1][8d88857b][ExtensionHostConnection] <2101> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[23:31:07] Last EH closed, waiting before shutting down
+[23:31:09] [127.0.0.1][5cb7dce3][ManagementConnection] New connection established.
+[23:31:09] [127.0.0.1][b238df1a][ExtensionHostConnection] New connection established.
+[23:31:09] [127.0.0.1][b238df1a][ExtensionHostConnection] <2234> Launched Extension Host Process.
+[23:33:43] Installing extension: ecmel.vscode-html-css
+[23:33:54] Downloaded extension: ecmel.vscode-html-css /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ecmel.vscode-html-css-0.2.3
+[23:33:54] Extracted extension to /home/vagrant/.vscode-server/extensions/.ecmel.vscode-html-css-0.2.3: ecmel.vscode-html-css
+[23:33:54] Renamed to /home/vagrant/.vscode-server/extensions/ecmel.vscode-html-css-0.2.3
+[23:33:54] Installation completed. ecmel.vscode-html-css
+[23:33:54] Extensions installed successfully: ecmel.vscode-html-css
+[23:35:07] [127.0.0.1][5cb7dce3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:35:08] [127.0.0.1][b238df1a][ExtensionHostConnection] <2234> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[23:35:08] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[23:35:08] Last EH closed, waiting before shutting down
+[23:35:10] [127.0.0.1][dabb8c7f][ManagementConnection] New connection established.
+[23:35:10] [127.0.0.1][aa82c9a7][ExtensionHostConnection] New connection established.
+[23:35:10] [127.0.0.1][aa82c9a7][ExtensionHostConnection] <2448> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[23:40:08] New EH opened, aborting shutdown
+[02:13:54] [127.0.0.1][0ba5c6e0][ManagementConnection] New connection established.
+[02:13:54] [127.0.0.1][01d9d91e][ExtensionHostConnection] New connection established.
+[02:13:54] [127.0.0.1][01d9d91e][ExtensionHostConnection] <3388> Launched Extension Host Process.

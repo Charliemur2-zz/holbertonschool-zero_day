@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+def rotate_left_list(my_list=[], number_rotation=0):
+    new_list = my_list[number_rotation:] + my_list[:number_rotation]
+    return new_list

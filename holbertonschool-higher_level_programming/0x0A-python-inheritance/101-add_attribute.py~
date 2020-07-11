@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+"""
+adds a new attribu if is posible
+"""
+
+
+def add_atribute(obj, name, elem):
+    """
+    adds a new atribute if is posible
+    """
+    if hasattr(type(obj), __dict__):
+        setattr(obj, name, elem)
+    raise TypeError("can't add new attribute")

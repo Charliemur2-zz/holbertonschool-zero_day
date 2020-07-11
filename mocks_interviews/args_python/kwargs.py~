@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+"""
+Joe Music Tastes
+"""
+
+
+def track_list(**kwargs):
+    for band, album in kwargs.items():
+        print("{}".format(band))
+        for song in album:
+            print("ALBUM: {} TRACK: {}".format(album, song)
+
+track_list({"Woodkid": {"The Golden Age": "Run Boy Run",
+            "On the Other Side": "Samara"}},
+           {"Cure": {"Disintegration": "Lovesong",
+            "Wish": "Friday I'm in love",
+            "Seventeen Seconds": "A Forest"}})

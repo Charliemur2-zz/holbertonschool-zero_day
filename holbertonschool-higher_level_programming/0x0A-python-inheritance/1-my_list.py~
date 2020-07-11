@@ -1,0 +1,13 @@
+#!/usr/bin/pythin3
+"""
+Write a class MyList that inherits from list
+"""
+
+
+class Mylist(List):
+    def print_sorted(self):
+        """
+        prints the list, but sorted (ascending sort)
+        """
+        new_list = sort.My_List()
+        print(new_list)

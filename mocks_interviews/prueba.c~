@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+
+void main(void)
+{
+
+	int s[] = {0, 1, 2, 3, 4};
+
+	int *p;
+	int i;
+
+	i = 0;
+	p = s;
+	while (s[i] != '\0')
+	{
+		printf("%p\n", &s[i]);
+		printf("direccion de s: %p\n", p);
+		i++;
+		p++;
+	}
+}

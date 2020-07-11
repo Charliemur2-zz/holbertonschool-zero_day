@@ -1,0 +1,28 @@
+[2020-07-10 23:35:16.932] [exthost] [info] extension host started
+[2020-07-10 23:35:17.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2020-07-10 23:35:17.582] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/emmet/dist/extension
+[2020-07-10 23:35:17.793] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-07-10 23:35:17.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/html-language-features/client/dist/node/htmlClientMain
+[2020-07-10 23:35:17.917] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"onLanguage:html"}
+[2020-07-10 23:35:17.917] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/extensions/ecmel.vscode-html-css-0.2.3/dist/extension
+[2020-07-10 23:35:18.194] [exthost] [info] ExtensionService#_doActivateExtension hdg.live-html-previewer {"startup":false,"extensionId":{"value":"hdg.live-html-previewer","_lower":"hdg.live-html-previewer"},"activationEvent":"onLanguage:html"}
+[2020-07-10 23:35:18.194] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/extensions/hdg.live-html-previewer-0.3.0/out/src/extension
+[2020-07-10 23:35:18.202] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-07-10 23:35:18.202] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/debug-auto-launch/dist/extension
+[2020-07-10 23:35:18.211] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-10 23:35:18.211] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/git/dist/main
+[2020-07-10 23:35:18.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-07-10 23:35:18.543] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/github-authentication/dist/extension.js
+[2020-07-10 23:35:18.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-07-10 23:35:18.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/merge-conflict/dist/mergeConflictMain
+[2020-07-10 23:35:18.580] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-07-10 23:35:18.581] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/microsoft-authentication/dist/extension.js
+[2020-07-10 23:35:18.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-07-10 23:35:18.603] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/search-result/dist/extension.js
+[2020-07-10 23:35:18.898] [exthost] [info] Extension 'ecmel.vscode-html-css' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305
+[2020-07-10 23:35:19.235] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-10 23:35:19.235] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/d5e9aa0227e057a60c82568bf31c04730dc15dcd/extensions/github/dist/extension.js
+[2020-07-10 23:35:19.371] [exthost] [info] eager extensions activated
+[2020-07-10 23:37:58.383] [exthost] [info] ExtensionService#_doActivateExtension negokaz.live-server-preview {"startup":false,"extensionId":{"value":"negokaz.live-server-preview","_lower":"negokaz.live-server-preview"},"activationEvent":"onCommand:extension.liveServerPreview.open"}
+[2020-07-10 23:37:58.384] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/extensions/negokaz.live-server-preview-0.1.4/out/src/extension
+[2020-07-10 23:37:58.897] [exthost] [warning] [Deprecation Warning] 'workspace.rootPath' is deprecated. Please use 'workspace.workspaceFolders' instead. More details: https://aka.ms/vscode-eliminating-rootpath

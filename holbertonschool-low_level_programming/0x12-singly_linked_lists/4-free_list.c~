@@ -1,0 +1,17 @@
+#include "lists.h"
+#include <stdlib.h>
+
+/**
+ * free_list - free memory of list_t
+ * @head: pointer to first node
+ */
+
+void free_list(list_t *head)
+{
+	while (head)
+	{
+		head = head->next;
+		free(head->str);
+		free(head);
+	}
+}

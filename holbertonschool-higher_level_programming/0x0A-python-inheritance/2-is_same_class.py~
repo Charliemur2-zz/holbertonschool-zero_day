@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+"""
+object is exactly an instance of the specified class
+"""
+
+def is_same_class(obj, a_class):
+    """
+    function that check if an object is an instance of a class
+    """
+    return isinstance(obj, a_class)

@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def square_matrix_simple(matrix=[]):
+    def square(num):
+        return num * num
+    squares = map(square, num)
+    return (squares)

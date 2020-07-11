@@ -1,0 +1,35 @@
+#include "holberton.h"
+
+/**
+ * rot13 - code rot 13
+ * @s: the string to code
+ * Return: s
+ */
+
+char *rot13(char *s)
+{
+	int i;
+	int n;
+
+	n = 0;
+	while (s[n] != '\0')
+	{
+		if ((s[n] >= 'a' && s[n] <= 'm') ||
+		    (s[n] >= 'A' && s[n] <= 'M'))
+		{
+			s[n] = s[n + 13];
+		}
+		else
+		{
+			i = 0;
+			while ((s[i] >= 'm' && s[i] <= 'z') ||
+			       (s[i] >= 'M' && s[i] <= 'Z'))
+			{
+				s[i] = s[i - 13];
+				i++;
+			}
+		}
+		n++;
+	}
+	return (s);
+}

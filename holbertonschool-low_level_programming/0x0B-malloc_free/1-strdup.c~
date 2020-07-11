@@ -1,0 +1,22 @@
+#include "holberton.h"
+#include <stdlib.h>
+
+/**
+ * _strdup - give a pointer that point to a copy of string
+ * @str: the string to copy
+ * Return: NULL or p
+ */
+
+char *_strdup(char *str)
+{
+	char *p;
+
+	p = malloc(sizeof(*str));
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	(*p)++ = (*str)++;
+	return (p);
+	free(p);
+}

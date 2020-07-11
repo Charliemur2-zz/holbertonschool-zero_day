@@ -1,0 +1,25 @@
+[2020-07-08 00:10:57.309] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-07-08 00:10:57.309] [remoteagent] [info] Extension host agent started.
+[2020-07-08 00:10:58.118] [remoteagent] [info] [127.0.0.1][824ef9fa][ManagementConnection] New connection established.
+[2020-07-08 00:10:58.126] [remoteagent] [info] [127.0.0.1][3c8fe7b4][ExtensionHostConnection] New connection established.
+[2020-07-08 00:10:58.610] [remoteagent] [info] [127.0.0.1][3c8fe7b4][ExtensionHostConnection] <1667> Launched Extension Host Process.
+[2020-07-08 00:11:15.148] [remoteagent] [info] [127.0.0.1][824ef9fa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-08 00:11:16.194] [remoteagent] [info] [127.0.0.1][3c8fe7b4][ExtensionHostConnection] <1667> Extension Host Process exited with code: 0, signal: null.
+[2020-07-08 00:11:16.195] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-08 00:11:17.548] [remoteagent] [info] [127.0.0.1][3634eb1a][ManagementConnection] New connection established.
+[2020-07-08 00:11:17.549] [remoteagent] [info] [127.0.0.1][0a7fcda9][ExtensionHostConnection] New connection established.
+[2020-07-08 00:11:17.555] [remoteagent] [info] [127.0.0.1][0a7fcda9][ExtensionHostConnection] <1713> Launched Extension Host Process.
+[2020-07-08 00:16:16.199] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-07-08 05:42:09.099] [remoteagent] [info] [127.0.0.1][3634eb1a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-08 05:42:10.347] [remoteagent] [info] [127.0.0.1][0a7fcda9][ExtensionHostConnection] <1713> Extension Host Process exited with code: 0, signal: null.
+[2020-07-08 05:42:10.347] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-08 05:47:10.387] [remoteagent] [info] Last EH closed, shutting down

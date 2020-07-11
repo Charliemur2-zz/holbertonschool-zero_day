@@ -1,0 +1,13 @@
+[INFO 21:57:34.044] autoDocstring was activated
+[INFO 22:03:09.448] Generating Docstring at line: 86
+[INFO 22:03:09.519] Docstring generated:
+        """${1:[summary]}
+
+        Args:
+            args (${2:[type]}): ${3:[description]}
+
+        Returns:
+            ${4:[type]}: ${5:[description]}
+        """
+[INFO 22:03:09.519] Inserting at position: 86 0
+[INFO 22:03:09.533] Successfully inserted docstring

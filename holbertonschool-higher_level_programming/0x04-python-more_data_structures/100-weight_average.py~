@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+def weight_average(my_list=[]):
+    if my_list:
+        mult_elem = 0
+        sum_wieght = 0
+        for aver, weight in my_list:
+            mult_elem = mult_elem + (aver * weight)
+            sum_weight += weight
+        return (mult_elem / sum_weight)
+    return (0)

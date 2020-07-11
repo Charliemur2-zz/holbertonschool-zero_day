@@ -1,0 +1,68 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant/AirBnB_clone
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git show :test_base_model.py
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/test_base_model.py
+> git check-ignore -v -z --stdin
+> git cat-file -s 64b2067d9a2a17cb389469d2dec70d03b845a4f2
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :models/base_model.py
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/models/base_model.py
+> git cat-file -s b1558f8ceae36212bc0f68903a26bb1abb0220d9
+> git check-ignore -v -z --stdin
+> git show :test_base_model.py
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/test_base_model.py
+> git cat-file -s 64b2067d9a2a17cb389469d2dec70d03b845a4f2
+> git check-ignore -v -z --stdin
+> git show :models/base_model.py
+> git ls-files --stage -- /home/vagrant/AirBnB_clone/models/base_model.py
+> git cat-file -s b1558f8ceae36212bc0f68903a26bb1abb0220d9
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse charliemur
+> git rev-parse --symbolic-full-name charliemur@{u}
+fatal: No upstream configured for branch 'charliemur'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

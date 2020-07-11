@@ -1,0 +1,43 @@
+[2020-07-10 23:11:28.002] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-07-10 23:11:28.002] [remoteagent] [info] Extension host agent started.
+[2020-07-10 23:11:28.263] [remoteagent] [info] [127.0.0.1][9d950e1d][ManagementConnection] New connection established.
+[2020-07-10 23:11:28.269] [remoteagent] [info] [127.0.0.1][8d88857b][ExtensionHostConnection] New connection established.
+[2020-07-10 23:11:28.994] [remoteagent] [info] [127.0.0.1][8d88857b][ExtensionHostConnection] <2101> Launched Extension Host Process.
+[2020-07-10 23:30:31.317] [remoteagent] [info] Installing extension: negokaz.live-server-preview
+[2020-07-10 23:30:55.870] [remoteagent] [info] Downloaded extension: negokaz.live-server-preview /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/negokaz.live-server-preview-0.1.4
+[2020-07-10 23:31:03.171] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.negokaz.live-server-preview-0.1.4: negokaz.live-server-preview
+[2020-07-10 23:31:03.172] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/negokaz.live-server-preview-0.1.4
+[2020-07-10 23:31:03.182] [remoteagent] [info] Installation completed. negokaz.live-server-preview
+[2020-07-10 23:31:03.198] [remoteagent] [info] Extensions installed successfully: negokaz.live-server-preview
+[2020-07-10 23:31:06.141] [remoteagent] [info] [127.0.0.1][9d950e1d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-10 23:31:07.317] [remoteagent] [info] [127.0.0.1][8d88857b][ExtensionHostConnection] <2101> Extension Host Process exited with code: 0, signal: null.
+[2020-07-10 23:31:07.317] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-10 23:31:09.546] [remoteagent] [info] [127.0.0.1][5cb7dce3][ManagementConnection] New connection established.
+[2020-07-10 23:31:09.551] [remoteagent] [info] [127.0.0.1][b238df1a][ExtensionHostConnection] New connection established.
+[2020-07-10 23:31:09.567] [remoteagent] [info] [127.0.0.1][b238df1a][ExtensionHostConnection] <2234> Launched Extension Host Process.
+[2020-07-10 23:33:43.059] [remoteagent] [info] Installing extension: ecmel.vscode-html-css
+[2020-07-10 23:33:54.659] [remoteagent] [info] Downloaded extension: ecmel.vscode-html-css /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ecmel.vscode-html-css-0.2.3
+[2020-07-10 23:33:54.752] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.ecmel.vscode-html-css-0.2.3: ecmel.vscode-html-css
+[2020-07-10 23:33:54.756] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ecmel.vscode-html-css-0.2.3
+[2020-07-10 23:33:54.760] [remoteagent] [info] Installation completed. ecmel.vscode-html-css
+[2020-07-10 23:33:54.764] [remoteagent] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2020-07-10 23:35:07.335] [remoteagent] [info] [127.0.0.1][5cb7dce3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-07-10 23:35:08.436] [remoteagent] [info] [127.0.0.1][b238df1a][ExtensionHostConnection] <2234> Extension Host Process exited with code: 0, signal: null.
+[2020-07-10 23:35:08.436] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-07-10 23:35:08.437] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-07-10 23:35:10.593] [remoteagent] [info] [127.0.0.1][dabb8c7f][ManagementConnection] New connection established.
+[2020-07-10 23:35:10.600] [remoteagent] [info] [127.0.0.1][aa82c9a7][ExtensionHostConnection] New connection established.
+[2020-07-10 23:35:10.618] [remoteagent] [info] [127.0.0.1][aa82c9a7][ExtensionHostConnection] <2448> Launched Extension Host Process.
+[2020-07-10 23:40:08.441] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-07-11 02:13:54.703] [remoteagent] [info] [127.0.0.1][0ba5c6e0][ManagementConnection] New connection established.
+[2020-07-11 02:13:54.709] [remoteagent] [info] [127.0.0.1][01d9d91e][ExtensionHostConnection] New connection established.
+[2020-07-11 02:13:54.728] [remoteagent] [info] [127.0.0.1][01d9d91e][ExtensionHostConnection] <3388> Launched Extension Host Process.

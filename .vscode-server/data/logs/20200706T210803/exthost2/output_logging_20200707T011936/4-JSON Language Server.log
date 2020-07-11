@@ -1,0 +1,10 @@
+[Error - 1:19:36 AM] Request textDocument/colorPresentation failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:71722)
+	at Object.dispose (/home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:54996)
+	at /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:51610
+[Error - 1:19:36 AM] Request textDocument/colorPresentation failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:71722)
+	at Object.dispose (/home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:54996)
+	at /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/extensions/json-language-features/client/dist/jsonMain.js:1:51610

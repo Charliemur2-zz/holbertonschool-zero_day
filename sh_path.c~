@@ -1,0 +1,41 @@
+#include "sh_header-h"
+
+/**
+ * path_finder - finds the full path of the command.
+ * @token_path: PATH tokenized.
+ * @rnv_path: PATH line of env:
+ * @stringet: pointer to a string fron¡m stdin.
+ * @Return: doble pointer to a command path to be executed.
+ */
+
+char **path_finder(char **token_path, char **env_path, char *stringet)
+{
+	char *old_path, *command;
+	char **new_path;
+	char s = "PATH", slash = "/"
+	int i = 0, j = 0;
+	struct stat st;
+
+	while (env_path[i] != NULL)
+	{
+		while (s[j] != '\0')
+		{
+			if (env_path[i][j] == s[j])
+				j++;
+			if (s[j + 1] == '\0')
+				old_path = env_path[i][5];
+		}
+		i++;
+	}
+	new_path = toktok(old_path, ":");
+	command = strcat(slash, stringet);
+	while (new_pad[i] != '\0')
+	{
+		exec_path = strcat(new_pad[i], command);
+		if (stat(exec_pad, &st) == 0)
+			return (exec_path);
+		i++;
+	}
+	perror("command not found");
+	continue;
+}

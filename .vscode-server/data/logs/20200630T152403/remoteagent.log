@@ -1,0 +1,22 @@
+[2020-06-30 15:24:03.335] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-06-30 15:24:03.335] [remoteagent] [info] Extension host agent started.
+[2020-06-30 15:24:04.098] [remoteagent] [info] [127.0.0.1][02f3d953][ManagementConnection] New connection established.
+[2020-06-30 15:24:04.103] [remoteagent] [info] [127.0.0.1][d226b480][ExtensionHostConnection] New connection established.
+[2020-06-30 15:24:04.731] [remoteagent] [info] [127.0.0.1][d226b480][ExtensionHostConnection] <1659> Launched Extension Host Process.
+[2020-06-30 17:52:47.167] [remoteagent] [info] [127.0.0.1][02f3d953][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-06-30 20:13:53.894] [remoteagent] [info] [127.0.0.1][02f3d953][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-06-30 20:13:53.905] [remoteagent] [info] [127.0.0.1][02f3d953][ManagementConnection] The client has reconnected.
+[2020-06-30 20:13:53.917] [remoteagent] [info] [127.0.0.1][d226b480][ExtensionHostConnection] The client has reconnected.
+[2020-06-30 21:31:26.708] [remoteagent] [info] [127.0.0.1][02f3d953][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-06-30 21:31:27.835] [remoteagent] [info] [127.0.0.1][d226b480][ExtensionHostConnection] <1659> Extension Host Process exited with code: 0, signal: null.
+[2020-06-30 21:31:27.836] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-06-30 21:36:27.937] [remoteagent] [info] Last EH closed, shutting down
